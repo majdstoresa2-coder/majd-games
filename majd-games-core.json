@@ -1,0 +1,21 @@
+{
+  "system": { ... },
+  "server": { ... },
+  "frontend": { ... },
+  "backend": { ... },
+  "database": { ... },
+  "storage": { ... },
+  "security": { ... },
+  "automation": { ... },
+  "notifications": { ... },
+  "logging": { ... },
+  "deployment": { ... },
+  "features": { ... },
+  "rbac": {
+    "enabled": true,
+    "defaultRole": "player",
+    "roles": {
+      ...
+    }
+  }
+}
