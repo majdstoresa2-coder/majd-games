@@ -1,0 +1,66 @@
+{
+  "project": {
+    "name": "Majd Games Platform",
+    "version": "2.0.0"
+  },
+  "requirements": {
+    "frontend": {
+      "framework": "React",
+      "styling": "Tailwind CSS",
+      "features": [
+        "Landing Page",
+        "Game Portal",
+        "Player Dashboard",
+        "Admin Dashboard",
+        "Store",
+        "Wallet",
+        "Profile",
+        "Leaderboard",
+        "Alliance System",
+        "Notifications"
+      ]
+    },
+    "backend": {
+      "framework": "Node.js + Express + TypeScript",
+      "modules": [
+        "Authentication",
+        "Users",
+        "Games",
+        "Inventory",
+        "Payments",
+        "Wallets",
+        "Achievements",
+        "Leaderboards",
+        "Chat",
+        "Analytics",
+        "Admin API"
+      ]
+    },
+    "database": {
+      "engine": "PostgreSQL",
+      "tables": [
+        "users",
+        "games",
+        "wallets",
+        "transactions",
+        "alliances",
+        "missions",
+        "achievements",
+        "inventory",
+        "notifications",
+        "logs"
+      ]
+    },
+    "automation": {
+      "engine": "n8n",
+      "workflows": [
+        "User Registration",
+        "Payments",
+        "Notifications",
+        "Daily Rewards",
+        "Backups",
+        "Monitoring"
+      ]
+    }
+  }
+}
