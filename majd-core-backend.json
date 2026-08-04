@@ -1,0 +1,109 @@
+{
+  "system": {
+    "name": "Majd Games Platform",
+    "version": "2.0.0",
+    "environment": "production",
+    "language": "ar,en",
+    "timezone": "Asia/Riyadh",
+    "defaultLocale": "ar-SA",
+    "status": "active",
+    "maintenanceMode": false,
+    "debug": false
+  },
+
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3000,
+    "protocol": "https",
+    "cors": true,
+    "compression": true,
+    "rateLimit": true
+  },
+
+  "frontend": {
+    "framework": "React",
+    "builder": "Vite",
+    "css": "TailwindCSS",
+    "theme": "Majd Dark",
+    "responsive": true,
+    "pwa": true
+  },
+
+  "backend": {
+    "runtime": "Node.js",
+    "framework": "Express",
+    "language": "TypeScript",
+    "api": "REST",
+    "websocket": true
+  },
+
+  "database": {
+    "engine": "PostgreSQL",
+    "cache": "Redis",
+    "autoMigration": true,
+    "backup": {
+      "enabled": true,
+      "schedule": "daily",
+      "retentionDays": 30
+    }
+  },
+
+  "storage": {
+    "provider": "Cloud",
+    "uploads": true,
+    "maxUploadSizeMB": 100
+  },
+
+  "security": {
+    "https": true,
+    "jwt": true,
+    "oauth": true,
+    "bcrypt": true,
+    "helmet": true,
+    "csrf": true,
+    "auditLogs": true
+  },
+
+  "automation": {
+    "enabled": true,
+    "engine": "n8n",
+    "monitoring": true,
+    "autoRestart": true,
+    "healthCheck": true
+  },
+
+  "notifications": {
+    "email": true,
+    "sms": true,
+    "push": true,
+    "inApp": true
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "saveErrors": true
+  },
+
+  "deployment": {
+    "provider": "Railway",
+    "docker": true,
+    "autoDeploy": true,
+    "healthCheck": true
+  },
+
+  "features": {
+    "games": true,
+    "players": true,
+    "wallet": true,
+    "store": true,
+    "payments": true,
+    "leaderboards": true,
+    "alliances": true,
+    "missions": true,
+    "achievements": true,
+    "analytics": true,
+    "adminPanel": true,
+    "moderation": true
+  }
+}
