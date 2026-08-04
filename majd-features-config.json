@@ -1,0 +1,21 @@
+{
+  "project": "Majd Games Platform",
+  "owner": "majdstoresa2-coder",
+  "version": "2.0.0-AI-Unified",
+  "description": "الملف الشامل الموحد لمنصة مجد للألعاب متضمنة كافة أدوات التشغيل والأتمتة والربط الذكي",
+  "ai_automation_engine": {
+    "status": "fully_operational",
+    "self_execution": true,
+    "integration_source": "Omar & Core Platform Tools",
+    "modules": {
+      "backend_handler": "Node.js core engine initialized for automated game loops and traffic management.",
+      "database_sync": "Auto-configured to handle user sessions, profiles, and scoreboards seamlessly.",
+      "webhook_workflows": "n8n integrated workflows for real-time alerts, error handling, and data pipelines."
+    }
+  },
+  "deployment_settings": {
+    "target_platform": "Cloud / Railway",
+    "repository_name": "majd-games",
+    "license": "Proprietary - Majd Store"
+  }
+}
