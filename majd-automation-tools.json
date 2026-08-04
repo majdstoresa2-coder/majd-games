@@ -1,0 +1,113 @@
+"rbac": {
+  "enabled": true,
+  "defaultRole": "player",
+  "roles": {
+    "super_admin": {
+      "name": "Super Admin",
+      "permissions": ["*"]
+    },
+    "owner": {
+      "name": "Owner",
+      "permissions": [
+        "manage_platform",
+        "manage_admins",
+        "manage_games",
+        "manage_players",
+        "manage_store",
+        "manage_wallets",
+        "manage_payments",
+        "manage_reports",
+        "manage_settings",
+        "view_logs",
+        "manage_ai",
+        "manage_automation"
+      ]
+    },
+    "admin": {
+      "name": "Administrator",
+      "permissions": [
+        "manage_games",
+        "manage_players",
+        "manage_store",
+        "manage_wallets",
+        "manage_reports",
+        "view_logs"
+      ]
+    },
+    "moderator": {
+      "name": "Moderator",
+      "permissions": [
+        "ban_players",
+        "mute_chat",
+        "review_reports",
+        "manage_chat",
+        "manage_content"
+      ]
+    },
+    "developer": {
+      "name": "Developer",
+      "permissions": [
+        "deploy",
+        "manage_api",
+        "manage_database",
+        "manage_ai",
+        "manage_workflows",
+        "view_logs"
+      ]
+    },
+    "support": {
+      "name": "Support",
+      "permissions": [
+        "view_players",
+        "manage_tickets",
+        "refund_requests",
+        "view_wallets"
+      ]
+    },
+    "merchant": {
+      "name": "Merchant",
+      "permissions": [
+        "manage_products",
+        "manage_orders",
+        "manage_store"
+      ]
+    },
+    "game_developer": {
+      "name": "Game Developer",
+      "permissions": [
+        "create_games",
+        "update_games",
+        "publish_games",
+        "view_analytics"
+      ]
+    },
+    "content_creator": {
+      "name": "Content Creator",
+      "permissions": [
+        "upload_media",
+        "manage_events",
+        "publish_news"
+      ]
+    },
+    "player": {
+      "name": "Player",
+      "permissions": [
+        "play_games",
+        "join_alliance",
+        "use_wallet",
+        "buy_items",
+        "chat",
+        "complete_missions",
+        "earn_rewards"
+      ]
+    },
+    "guest": {
+      "name": "Guest",
+      "permissions": [
+        "view_games",
+        "register",
+        "login"
+      ]
+    }
+  }
+}
