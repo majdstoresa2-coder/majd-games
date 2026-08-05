@@ -1,0 +1,61 @@
+{
+  "roadTypes": [
+    {
+      "id": "royal_road",
+      "name": {
+        "ar": "الطريق الملكي",
+        "en": "Royal Road"
+      },
+      "movementSpeedBonus": 20,
+      "durability": 100,
+      "maintenanceCost": 10
+    },
+    {
+      "id": "forest_path",
+      "name": {
+        "ar": "الممر الغابي",
+        "en": "Forest Path"
+      },
+      "movementSpeedBonus": 5,
+      "ambushRisk": 15,
+      "resourceDiscoveryBonus": 10
+    },
+    {
+      "id": "mountain_pass",
+      "name": {
+        "ar": "الممر الجبلي",
+        "en": "Mountain Pass"
+      },
+      "movementSpeedBonus": -10,
+      "ambushRisk": 20,
+      "rareResourceChance": 15
+    }
+  ],
+
+  "caravans": {
+    "enabled": true,
+    "maxCaravans": 10,
+    "escortRequired": true,
+    "resourceTransport": true,
+    "tradeTransport": true
+  },
+
+  "checkpoints": {
+    "enabled": true,
+    "guardTowers": true,
+    "inspectionPosts": true,
+    "fastTravelUnlock": true
+  },
+
+  "environmentEffects": {
+    "rain": {
+      "speedModifier": -10
+    },
+    "snow": {
+      "speedModifier": -20
+    },
+    "sandstorm": {
+      "speedModifier": -30
+    }
+  }
+  }
