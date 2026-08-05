@@ -1,0 +1,48 @@
+{
+  "cities": {
+    "defaultCity": {
+      "id": "city_level_1",
+      "name": {
+        "ar": "مدينة مجد",
+        "en": "Majd City"
+      },
+
+      "startingLevel": 1,
+      "maxLevel": 40,
+
+      "population": {
+        "initial": 500,
+        "maximum": 100000,
+        "growthPerHour": 25
+      },
+
+      "happiness": {
+        "initial": 90,
+        "minimum": 0,
+        "maximum": 100
+      },
+
+      "economy": {
+        "goldIncomePerHour": 150,
+        "tradeIncomePerHour": 75,
+        "taxRate": 5
+      },
+
+      "services": {
+        "market": true,
+        "hospital": true,
+        "academy": true,
+        "warehouse": true
+      },
+
+      "availableBuildings": [
+        "market",
+        "academy",
+        "hospital",
+        "warehouse",
+        "blacksmith",
+        "town_square"
+      ]
+    }
+  }
+}
