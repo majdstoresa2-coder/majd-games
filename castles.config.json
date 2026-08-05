@@ -1,0 +1,43 @@
+{
+  "castles": {
+    "defaultCastle": {
+      "id": "castle_level_1",
+      "name": {
+        "ar": "قلعة مجد",
+        "en": "Majd Castle"
+      },
+      "startingLevel": 1,
+      "maxLevel": 50,
+
+      "health": {
+        "base": 10000,
+        "growthPerLevel": 1200
+      },
+
+      "defense": {
+        "base": 500,
+        "growthPerLevel": 60
+      },
+
+      "capacity": {
+        "population": 100,
+        "troops": 500,
+        "storage": 5000
+      },
+
+      "unlockBuildings": [
+        "town_hall",
+        "warehouse",
+        "barracks",
+        "academy",
+        "wall"
+      ]
+    },
+
+    "upgrade": {
+      "enabled": true,
+      "instantUpgrade": false,
+      "maxConcurrentUpgrades": 2
+    }
+  }
+}
