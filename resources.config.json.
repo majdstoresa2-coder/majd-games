@@ -1,0 +1,46 @@
+{
+  "roadManagement": {
+    "maintenance": {
+      "enabled": true,
+      "automaticRepair": true,
+      "repairIntervalHours": 24,
+      "durabilityLossPerDay": 1
+    },
+
+    "traffic": {
+      "enabled": true,
+      "civilianTraffic": true,
+      "militaryTraffic": true,
+      "tradeTraffic": true,
+      "dynamicCongestion": true
+    }
+  },
+
+  "roadEvents": {
+    "enabled": true,
+    "merchantConvoys": true,
+    "banditAmbushes": true,
+    "travelFestivals": true,
+    "constructionProjects": true
+  },
+
+  "security": {
+    "patrols": true,
+    "guardPosts": true,
+    "emergencyResponse": true,
+    "safeTravelBonus": 10
+  },
+
+  "bonuses": {
+    "movementSpeedBonus": 15,
+    "tradeEfficiencyBonus": 10,
+    "constructionSpeedBonus": 5
+  },
+
+  "metadata": {
+    "module": "Roads",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
