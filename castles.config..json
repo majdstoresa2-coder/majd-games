@@ -1,0 +1,53 @@
+{
+  "cityManagement": {
+    "governor": {
+      "enabled": true,
+      "maxGovernors": 1,
+      "skillsAffectEconomy": true,
+      "skillsAffectConstruction": true
+    },
+
+    "citizenSatisfaction": {
+      "enabled": true,
+      "baseValue": 90,
+      "minValue": 0,
+      "maxValue": 100,
+      "affectsProduction": true
+    },
+
+    "security": {
+      "cityGuard": true,
+      "crimeSystem": false,
+      "emergencyResponse": true
+    }
+  },
+
+  "cityEvents": {
+    "enabled": true,
+    "seasonalFestivals": true,
+    "marketEvents": true,
+    "constructionEvents": true,
+    "researchEvents": true
+  },
+
+  "bonuses": {
+    "resourceProduction": 12,
+    "constructionSpeed": 10,
+    "researchSpeed": 8,
+    "tradeIncome": 15
+  },
+
+  "visualSettings": {
+    "dynamicLighting": true,
+    "seasonEffects": true,
+    "populationAnimations": true,
+    "cityExpansionVisuals": true
+  },
+
+  "metadata": {
+    "module": "Cities",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
