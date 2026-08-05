@@ -1,0 +1,69 @@
+{
+  "cityLevels": [
+    {
+      "level": 2,
+      "requirements": {
+        "wood": 2500,
+        "stone": 2000,
+        "food": 1500,
+        "upgradeTimeMinutes": 8
+      },
+      "rewards": {
+        "populationCapacity": 1000,
+        "buildingSlots": 8,
+        "goldIncomeBonus": 5
+      }
+    },
+    {
+      "level": 3,
+      "requirements": {
+        "wood": 5000,
+        "stone": 4500,
+        "iron": 750,
+        "upgradeTimeMinutes": 15
+      },
+      "rewards": {
+        "populationCapacity": 1800,
+        "buildingSlots": 10,
+        "goldIncomeBonus": 10
+      }
+    },
+    {
+      "level": 4,
+      "requirements": {
+        "wood": 9000,
+        "stone": 8000,
+        "iron": 2000,
+        "gold": 300,
+        "upgradeTimeMinutes": 25
+      },
+      "rewards": {
+        "populationCapacity": 3000,
+        "buildingSlots": 12,
+        "goldIncomeBonus": 15
+      }
+    }
+  ],
+
+  "commerce": {
+    "marketEnabled": true,
+    "auctionHouse": true,
+    "merchantGuild": true,
+    "dailyTradeLimit": 100,
+    "tradeTaxPercent": 4
+  },
+
+  "cityDistricts": {
+    "residential": true,
+    "commercial": true,
+    "industrial": true,
+    "research": true,
+    "entertainment": true
+  },
+
+  "publicServices": {
+    "hospitalBonus": 10,
+    "academyBonus": 8,
+    "marketEfficiency": 12
+  }
+}
