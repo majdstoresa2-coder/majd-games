@@ -1,0 +1,66 @@
+{
+  "rareLocations": [
+    {
+      "id": "forgotten_temple",
+      "name": {
+        "ar": "المعبد المنسي",
+        "en": "Forgotten Temple"
+      },
+      "difficulty": "hard",
+      "recommendedLevel": 15,
+      "rewards": [
+        "ancient_artifact",
+        "gold",
+        "research_scroll"
+      ]
+    },
+    {
+      "id": "crystal_cavern",
+      "name": {
+        "ar": "كهف البلورات",
+        "en": "Crystal Cavern"
+      },
+      "difficulty": "medium",
+      "recommendedLevel": 10,
+      "rewards": [
+        "crystals",
+        "rare_gems",
+        "iron"
+      ]
+    },
+    {
+      "id": "sky_observatory",
+      "name": {
+        "ar": "مرصد السماء",
+        "en": "Sky Observatory"
+      },
+      "difficulty": "expert",
+      "recommendedLevel": 20,
+      "rewards": [
+        "star_map",
+        "legendary_artifact",
+        "experience"
+      ]
+    }
+  ],
+
+  "missions": {
+    "dailyExploration": true,
+    "weeklyExpeditions": true,
+    "worldEvents": true,
+    "treasureMaps": true
+  },
+
+  "puzzles": {
+    "enabled": true,
+    "ancientMechanisms": true,
+    "hiddenDoors": true,
+    "runeStones": true
+  },
+
+  "bossEncounters": {
+    "enabled": true,
+    "spawnRandomly": true,
+    "legendaryBosses": true
+  }
+}
