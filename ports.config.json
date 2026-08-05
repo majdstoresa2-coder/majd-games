@@ -1,0 +1,45 @@
+{
+  "ports": {
+    "defaultPort": {
+      "id": "port_level_1",
+      "name": {
+        "ar": "ميناء مجد",
+        "en": "Majd Harbor"
+      },
+
+      "startingLevel": 1,
+      "maxLevel": 30,
+
+      "capacity": {
+        "ships": 5,
+        "cargo": 10000,
+        "dailyTradeRoutes": 10
+      },
+
+      "services": {
+        "shipyard": true,
+        "cargoWarehouse": true,
+        "merchantOffice": true,
+        "harborMarket": true
+      },
+
+      "allowedShips": [
+        "small_boat",
+        "trade_ship",
+        "exploration_ship"
+      ],
+
+      "production": {
+        "goldPerHour": 80,
+        "tradeBonus": 5
+      }
+    }
+  },
+
+  "shipyard": {
+    "enabled": true,
+    "maxConstructionQueue": 2,
+    "repairShips": true,
+    "upgradeShips": true
+  }
+}
