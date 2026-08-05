@@ -1,0 +1,44 @@
+{
+  "exploration": {
+    "enabled": true,
+    "startingVisibilityRadius": 1000,
+    "maximumVisibilityRadius": 50000,
+
+    "fogOfWar": {
+      "enabled": true,
+      "hideUndiscoveredAreas": true,
+      "revealOnExploration": true,
+      "shareWithAlliance": false
+    },
+
+    "explorers": {
+      "maximumTeams": 5,
+      "energySystem": true,
+      "baseEnergy": 100,
+      "energyRecoveryPerHour": 20
+    },
+
+    "explorationSpeed": {
+      "base": 100,
+      "heroBonus": true,
+      "technologyBonus": true,
+      "weatherEffects": true
+    },
+
+    "discoverables": {
+      "hiddenVillages": true,
+      "abandonedCastles": true,
+      "ancientRuins": true,
+      "mysteriousCaves": true,
+      "secretHarbors": true
+    },
+
+    "rewards": {
+      "experience": true,
+      "gold": true,
+      "rareResources": true,
+      "artifacts": true,
+      "achievementPoints": true
+    }
+  }
+}
