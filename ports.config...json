@@ -1,0 +1,46 @@
+{
+  "harborManagement": {
+    "harborMaster": {
+      "enabled": true,
+      "maxManagers": 1,
+      "tradeEfficiencyBonus": 10,
+      "shipRepairBonus": 15
+    },
+
+    "dockManagement": {
+      "enabled": true,
+      "maxDocks": 12,
+      "automaticDockAssignment": true,
+      "maintenanceRequired": true
+    }
+  },
+
+  "shippingRoutes": {
+    "automaticRoutes": true,
+    "manualRoutes": true,
+    "routeOptimization": true,
+    "maximumActiveRoutes": 20
+  },
+
+  "seaEvents": {
+    "enabled": true,
+    "merchantConvoys": true,
+    "treasureFleets": true,
+    "stormEvents": true,
+    "pirateEncounters": true
+  },
+
+  "bonuses": {
+    "tradeIncomeBonus": 15,
+    "shipConstructionSpeed": 12,
+    "cargoCapacityBonus": 20,
+    "explorationRewardBonus": 8
+  },
+
+  "metadata": {
+    "module": "Ports",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
