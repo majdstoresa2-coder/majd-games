@@ -1,0 +1,57 @@
+{
+  "ships": [
+    {
+      "id": "swift_scout",
+      "name": {
+        "ar": "سفينة الاستطلاع",
+        "en": "Swift Scout"
+      },
+      "type": "exploration",
+      "capacity": 500,
+      "crew": 10,
+      "speed": 120,
+      "durability": 1000,
+      "unlockLevel": 2
+    },
+    {
+      "id": "merchant_vessel",
+      "name": {
+        "ar": "السفينة التجارية",
+        "en": "Merchant Vessel"
+      },
+      "type": "trade",
+      "capacity": 5000,
+      "crew": 25,
+      "speed": 80,
+      "durability": 2500,
+      "unlockLevel": 5
+    },
+    {
+      "id": "guardian_frigate",
+      "name": {
+        "ar": "فرقاطة الحراسة",
+        "en": "Guardian Frigate"
+      },
+      "type": "defense",
+      "capacity": 1500,
+      "crew": 60,
+      "speed": 90,
+      "durability": 5000,
+      "unlockLevel": 10
+    }
+  ],
+
+  "navigation": {
+    "weatherEffects": true,
+    "fuelRequired": false,
+    "repairRequired": true,
+    "maxActiveRoutes": 8
+  },
+
+  "trade": {
+    "allowResourceTransport": true,
+    "allowPlayerTransport": true,
+    "allowAllianceLogistics": true,
+    "portTaxPercent": 3
+  }
+}
