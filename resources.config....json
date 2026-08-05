@@ -1,0 +1,44 @@
+{
+  "roads": {
+    "defaultRoad": {
+      "id": "road_level_1",
+      "name": {
+        "ar": "الطريق الملكي",
+        "en": "Royal Road"
+      },
+
+      "startingLevel": 1,
+      "maxLevel": 20,
+
+      "movement": {
+        "speedBonusPercent": 10,
+        "allowCaravans": true,
+        "allowMilitary": true,
+        "allowCivilians": true
+      },
+
+      "maintenance": {
+        "enabled": true,
+        "costPerDay": {
+          "wood": 50,
+          "stone": 30,
+          "gold": 10
+        }
+      },
+
+      "connections": {
+        "cities": true,
+        "castles": true,
+        "ports": true,
+        "resourceSites": true
+      }
+    }
+  },
+
+  "bridges": {
+    "enabled": true,
+    "maxLevel": 10,
+    "allowRiverCrossing": true,
+    "allowHeavyUnits": true
+  }
+}
