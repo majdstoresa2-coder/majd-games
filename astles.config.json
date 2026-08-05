@@ -1,0 +1,69 @@
+{
+  "castleLevels": [
+    {
+      "level": 2,
+      "requirements": {
+        "wood": 2000,
+        "stone": 1500,
+        "food": 1000,
+        "upgradeTimeMinutes": 5
+      },
+      "rewards": {
+        "populationCapacity": 150,
+        "storageCapacity": 7000,
+        "buildingSlots": 6
+      }
+    },
+    {
+      "level": 3,
+      "requirements": {
+        "wood": 4500,
+        "stone": 3500,
+        "iron": 500,
+        "upgradeTimeMinutes": 12
+      },
+      "rewards": {
+        "populationCapacity": 250,
+        "storageCapacity": 10000,
+        "buildingSlots": 7
+      }
+    },
+    {
+      "level": 4,
+      "requirements": {
+        "wood": 8000,
+        "stone": 6500,
+        "iron": 1500,
+        "gold": 250,
+        "upgradeTimeMinutes": 20
+      },
+      "rewards": {
+        "populationCapacity": 400,
+        "storageCapacity": 15000,
+        "buildingSlots": 8
+      }
+    }
+  ],
+
+  "castleDefense": {
+    "wall": {
+      "enabled": true,
+      "maxLevel": 30
+    },
+    "watchTower": {
+      "enabled": true,
+      "maxLevel": 20
+    },
+    "mainGate": {
+      "enabled": true,
+      "reinforced": true
+    }
+  },
+
+  "visualStyle": {
+    "architecture": "Majd Original",
+    "upgradeAppearance": true,
+    "dayNightLighting": true,
+    "seasonalDecorations": true
+  }
+}
