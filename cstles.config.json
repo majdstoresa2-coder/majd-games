@@ -1,0 +1,40 @@
+{
+  "garrison": {
+    "enabled": true,
+    "maxTroops": 50000,
+    "heroSlots": 5,
+    "defenseBonusPercent": 15,
+    "autoDefend": true
+  },
+
+  "repair": {
+    "enabled": true,
+    "allowInstantRepair": false,
+    "repairCost": {
+      "wood": 500,
+      "stone": 500,
+      "iron": 100
+    },
+    "repairSpeedPerMinute": 250
+  },
+
+  "castleBonuses": {
+    "resourceProductionBonus": 10,
+    "researchSpeedBonus": 5,
+    "trainingSpeedBonus": 8,
+    "marchCapacityBonus": 12
+  },
+
+  "ownership": {
+    "allowTransfer": false,
+    "allowRename": true,
+    "renameCooldownHours": 24
+  },
+
+  "metadata": {
+    "module": "Castles",
+    "project": "Majd Kingdom System",
+    "configVersion": "1.0.0",
+    "readyForProduction": true
+  }
+}
